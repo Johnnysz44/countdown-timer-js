@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    background: url('./beach.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    margin-top: -10rem;
+    font-size: 4rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    color: rgb(36, 36, 36);
+}
+
+.countdown-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgba(80, 79, 79, 0.322);
+    border-radius: 10px;
+    padding: 10px;
+    color: aliceblue;
+}
+
+.big-text{
+    font-weight: bold;
+    font-size: 6rem;
+    margin: -2rem 2rem;
+}
+
+.countdown-el {
+    text-align: center;
+}
